@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title> Reece Adams-Stone - Portfolio </title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="static/images/icons8-r-64.png" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="static/css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100 bg-light">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="{{ url_for('index') }}"><span class="fw-bolder text-primary text-gradient"> Reece Adams-Stone </span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link" href="{{ url_for('index') }}">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url_for('cv') }}">CV</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url_for('projects') }}">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url_for('contact') }}">Get in touch</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Page Content-->
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline"> CV </span></h1>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-11 col-xl-9 col-xxl-8">
+                        <!-- Experience Section-->
+                        <section>
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h2 class="text-primary fw-bolder mb-0 text-gradient">Experience</h2>
+                                <!-- Download resume button-->
+                                <!-- Note: Set the link href target to a PDF file within your project-->
+                                <a class="btn btn-primary px-4 py-3" href="#!">
+                                    <div class="d-inline-block bi bi-download me-2"></div>
+                                    Download CV
+                                </a>
+                            </div>
+                            <!-- Experience Card 1-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-gradient fw-bolder mb-2">2020 - 2023</div>
+                                                <div class="small fw-bolder"> Secondary School English Teacher </div>
+                                                <div class="small text-muted"> St Mary's Catholic School</div>
+                                                <div class="small text-muted"> Bishops Stortford</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8"><div> Teaching students aged 11 to 18 from KS3 to A-Level developed my experience and aptitude in education provision. <br><br> 
+
+                                            Skillfully conducting periods of remote learning through lockdowns and strike conditions exemplifies my adaptability.  <br><br>  
+
+                                            Providing for mixed ability classes at each key stage demonstrates my successful capacity for problem solving. <br><br>
+                                           
+                                            Shouldering responsibility for expanding whole school mental health and wellbeing strategies, as well as entire schemes of learning for complex linguistics material, displays proficient time management. </div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Experience Card 2-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-gradient fw-bolder mb-2">2019 - 2020</div>
+                                                <div class="small fw-bolder"> Teacher in Training </div>
+                                                <div class="small text-muted"> St Augustines High School and Ninestiles Academy </div>
+                                                <div class="small text-muted"> <br>South Birmingham </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8"><div> Working in schools with varying socioeconomic backgrounds furthered my insight into the importance of education. The diversity of this training honed my expertise in customising strategies to suit individual preferences and strengths. <br><br>
+
+                                            Navigating team dynamics and organisational structures enhanced my ability to recognise the value in seeking assistance and the advantages of collaboration.<br><br>
+
+                                            This process cemented my hardworking and dilligent nature by completing Master's level essays alongside a teaching timetable.
+                                        </div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Education Section-->
+                        <section>
+                            <h2 class="text-gradient fw-bolder mb-4">Education</h2>
+                            <!-- Education Card 1-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-gradient fw-bolder mb-2">2015 - 2019</div>
+                                                <div class="mb-2">
+                                                    <div class="small fw-bolder"> University of Reading </div>
+                                                    <div class="small text-muted"> </div>
+                                                </div>
+                                                <div class="fst-italic">
+                                                    <div class="small text-muted">BA English Literature </div>
+                                                    <div class="small text-muted"> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8"><div> My degree equipped me with the ability to analyse complexities, interpret nuanced meanings and think critically about varied perspectives. <br><br>
+
+                                            I improved my research skills by gathering data from diverse sources and synthesising it into coherent narratives. <br><br>
+
+                                            Engaging in independent reading and parsing literary criticism required self-motivation, discipline and objective thinking. <br><br>
+                                            
+                                            These skills have fostered personal and professional growth in my career endeavours, extending beyond literature and being applicable in daily life, informing my decision making and encouraging empathic understanding of viewpoints.
+                                        </div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <h2 class="text-gradient fw-bolder mb-4">Other Relevant Experiences </h2>
+                            <!-- Further Experiences -->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-gradient fw-bolder mb-2"> Volunteering and Opportunities </div>
+                                                <div class="mb-2">
+                                                    <div class="small fw-bolder">  </div>
+                                                    <div class="small text-muted"> </div>
+                                                </div>
+                                                <div class="fst-italic">
+                                                    <div class="small text-muted"> Worldwide </div>
+                                                    <div class="small text-muted"> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <ul>
+                                                <li> Camp Counsellor
+                                                <ul>
+                                                    <li> Camp Independence for Children and Adults with Spina bifida  </li>
+                                                </ul>
+                                                <li> Sports Coach 
+                                                    <ul>
+                                                        <li> Reading Area </li>
+                                                    </ul>
+                                                
+                                                <li> Special Needs Teaching Assistant 
+                                                    <ul>
+                                                        <li> Churchill Middle School </li>
+                                                    </ul>
+                                               
+                                                <li>  English Teacher 
+                                                    <ul>
+                                                        <li> TEFL British Council (Thailand) </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Divider-->
+                        <div class="pb-5"></div>
+                        <!-- Skills Section-->
+                        <section>
+                            <!-- Skillset Card-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <!-- Professional skills list-->
+                                    <div class="mb-5">
+                                        <div class="d-flex align-items-center mb-4">
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-tools"></i></div>
+                                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Professional Skills</span></h3>
+                                        </div>
+                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center  bg-light rounded-4 p-3 h-100"> Critical Thinker </div></div>
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100"> Creative and Innovative </div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100"> Communication </div></div>
+                                        </div>
+                                        <div class="row row-cols-1 row-cols-md-3">
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100"> Detailed and Data Driven </div></div>
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100"> Adaptable </div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100"> Dedicated to Professional Growth </div></div>
+                                        </div>
+                                    </div>
+                                    <!-- Languages list-->
+                                    <div class="mb-0">
+                                        <div class="d-flex align-items-center mb-4">
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-code-slash"></i></div>
+                                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Languages</span></h3>
+                                        </div>
+                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML</div></div>
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">CSS</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div></div>
+                                        </div>
+                                        <div class="row row-cols-1 row-cols-md-3">
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Python</div></div>
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100"> SQL </div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Node.js</div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+            <!-- Call to action section-->
+            <section class="py-5 bg-gradient-primary-to-secondary text-black">
+                <div class="container px-5 my-5">
+                    <div class="text-center">
+                        <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
+                        <a class="btn btn-success btn-lg px-5 py-3 fs-6 fw-bolder" href="{{ url_for('contact') }}" target="_blank"> Contact me </a>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="d-flex justify-content-center fs-2 gap-4">
+                <a class="text-gradient" href="https://www.linkedin.com/in/reece-adams-stone-471341278/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a class="text-gradient" href="https://github.com/ReeceAdamsStone"  target="_blank"><i class="bi bi-github"></i></a>
+            </div>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
